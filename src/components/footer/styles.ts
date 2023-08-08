@@ -4,18 +4,39 @@ export const ContainerFooter = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 200px;
+  height: 300px;
   background: #EB731B;
   margin-top: 10rem;
-  gap: 13rem;
+  gap: 10rem;
+
+  h1 {
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+    font-size: 3rem;
+
+    &:hover {
+      color: #FFF;
+      transition: all 1s ease-in-out;
+    }
+  }
   
   .contact {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 2rem;
 
     h1 {
-      font-size: 1rem;
+      font-size: 1.3rem;
+    }
+
+    .iconSocialMedia {
+      display: flex;
+      gap: 10px;
+
+      img {
+        width: 40px;
+        cursor: pointer;
+      }
     }
   }
 `;

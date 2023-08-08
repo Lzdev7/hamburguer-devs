@@ -1,4 +1,7 @@
 import { ContainerFooter, Dev } from "./styles";
+import facebook from "../../assets/facebook.png";
+import instragam from "../../assets/instagram.png"
+
 
 export function Footer() {
   return(
@@ -40,6 +43,13 @@ export function Footer() {
         <div className="contact">
 
           <h1>REDES SOCIAIS</h1>
+
+          <div className="iconSocialMedia">
+
+            <img src={facebook} alt="" />
+            <img src={instragam} alt="" />
+
+          </div>
           
         </div>
 

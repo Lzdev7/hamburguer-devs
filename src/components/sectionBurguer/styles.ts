@@ -60,6 +60,8 @@ export const SectionBurguerContainer = styled.div`
           font-weight: bold;
           font-size: 0.9rem;
           margin-left: 14rem;
+          cursor: pointer;
+          font-family: 'Archivo', sans-serif;
         }
 
         .titlelegend {

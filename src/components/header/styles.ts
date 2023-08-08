@@ -15,6 +15,12 @@ export const HeaderContainer = styled.div`
   .menuHeader li {
     cursor: pointer;
     font-weight: bold;
+    transition: all 0.4s ease-in-out;
+
+    &:hover {
+      scale: 1.04;
+      transition: all 0.4s ease-in-out;
+    }
   }
 
   .logo {

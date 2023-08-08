@@ -23,7 +23,7 @@ export const ContainerLocation = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 30rem;
+  gap: 30 rem;
   margin-top: 5rem;
 
   h1 {

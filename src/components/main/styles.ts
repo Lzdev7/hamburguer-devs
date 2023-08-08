@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import hamburguer from "../../assets/hamburguer.jpg"
+import hamburguer from "../../assets/background.jpg"
 
 export const ContainerMain = styled.div`
   display: flex;
@@ -10,7 +10,7 @@ export const ContainerMain = styled.div`
   height: 600px;
   gap: 5rem;
   background-image: url(${hamburguer});
-  background-size: 50%;
+  background-size:cover;
   background-position: center;
 
   h1 {
@@ -26,5 +26,6 @@ export const ContainerMain = styled.div`
     border-radius: 2px;
     cursor: pointer;
     font-size: 0.9rem;
+    font-family: 'Archivo', sans-serif;
   }
 `;
